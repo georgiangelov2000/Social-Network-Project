@@ -5,4 +5,4 @@ Database:Mongo
 Frond-End:React
 
 Back-end Resources:express jsonwebtoken mongo expressvalidator bcrypt
-Frond-end Resources:React,React,Redux,Router
+Frond-end Resources:React,Redux,Router
