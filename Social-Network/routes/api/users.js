@@ -8,9 +8,7 @@ const { check, validationResult } = require("express-validator");
 
 const User = require("../../models/user");
 
-//@route GET api/users
-//@description Test route
-//@Access Public
+
 router.post("/",[
     check("name", "Name is required").not().isEmpty(),
     check("email", "Please include a valid email address").isEmail(),
