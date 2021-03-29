@@ -1,4 +1,6 @@
 {
 "MONGODB_URL":"mongodb://localhost:27017/social-network-project",
-"jwtSecret":"askdmksamdks324km32km"
+"jwtSecret":"askdmksamdks324km32km",
+"githubClientId":"644f5b175f4626f9ef1f",
+"githubSecret":"41b6caa3aafc0d980daa518ec26a2624c7988b05"
 }
