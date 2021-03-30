@@ -1,12 +1,10 @@
 const express = require("express");
 const router = express.Router();
-const { check, validationResult } = require("express-validator/check");
+const { check, validationResult } = require("express-validator");
 const auth = require("../../middleware/auth");
 const Post = require("../../models/post");
 const User = require("../../models/user");
-const Profile = require("../../models/profile");
-const { compareSync } = require("bcryptjs");
-const { findById } = require("../../models/post");
+
 
 router.post(
   "/",
